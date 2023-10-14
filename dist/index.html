@@ -1,11 +1,1890 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Dev Gupta">
+  <meta name="google-site-verification" content="MWRuoVvnIu4kMfcK4E5SFUmzz0mw2hAB4MsxBE-eC74" />
+  <meta name="description"
+    content="Explore the digital portfolio of Dev Gupta – a creative mind and tech enthusiast. Discover a collection of innovative projects, coding endeavors, and design creations, showcasing a journey of passion and skill. From elegant web designs to dynamic coding projects, immerse yourself in a showcase of Dev Gupta's expertise and creativity.">
+  <meta name="keywords"
+    content="Dev Gupta - Portfolio, Web Development, Front-End Development, Back-End Development, UI/UX Design, Full Stack Development, Responsive Design, Portfolio Showcase, Project Highlights, Web Apps, User-Centered Design, Creative Design, Code Quality, Problem Solving, Innovative Solutions, Client Projects, Personal Projects">
+
+  <!-- Title -->
+  <title>Dev Gupta - Portfolio</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./asset/img/portfolio/icon/my-avatar.ico" type="image/x-icon">
+
+  <!-- Custom CSS Link -->
+  <link rel="stylesheet" href="./asset/css/style.css">
+
+  <!-- Google Font Link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    hello World
+
+  <!-- Main -->
+  <main>
+
+    <!-- Slide Bar -->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./asset/img/portfolio/avatar/my-avatar.png" alt="My Avatar" width="80">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="My Name">Dev Gupta</h1>
+          <p class="title">Developer and Editor</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">E-Mail</p>
+              <a href="mailto:devwork260802@gmail.com" class="contact-link">devwork260802@gmail.com</a>
+            </div>
+          </li>
+          <!-- <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+91 XXXXXXXXX" class="contact-link">+91 XXXXXXXXXX</a>
+            </div>
+          </li> -->
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2002-08-26">August 26, 2002</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Delhi, India</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/dev-gupta-work" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://instagram.com/devgupta29956" target="_blank" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://github.com/devwork260802" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="main-content">
+
+      <!-- Navbar -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Services</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Store</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- About -->
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            I'm a multi-talented professional based in Delhi, India. With expertise as a Developer, Designer, and
+            Editor.
+            I'm deeply involved in both websites and content. My passion lies in transforming intricate challenges into
+            elegant, user-friendly designs.
+          </p>
+          <p>
+            My role involves crafting functional and visually appealing websites that captivate users. Adding a personal
+            touch, I ensure your product is both eye-catching and user-friendly. My ultimate goal is to creatively
+            convey your message and identity. Let's collaborate to bring your vision to life.
+          </p>
+        </section>
+
+        <!-- Service -->
+        <section class="service">
+          <h3 class="h3 service-title">What I'm doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./asset/svg/portfolio/icon/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="pencil-outline" class="game-icon"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Content Writer</h4>
+                <p class="service-item-text">
+                  Turning thoughts into eloquent words that dance and resonate with readers.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./asset/svg/portfolio/icon/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Application</h4>
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="create-outline" class="game-icon"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Content Editor</h4>
+                <p class="service-item-text">
+                  Transforming ideas into engaging content that leaves a lasting impression.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <ion-icon name="game-controller-outline" class="game-icon"></ion-icon>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Game Development</h4>
+                <p class="service-item-text">
+                  Turning ideas into playable magic using code.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- Resume -->
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFB0lEQVR4nO1YSYwUZRQuo3HBwYgmyCIuEOXiFvXiEj2YqHGJFzGCXuAwcWbseq+mZ9SDOgf05tFdo8Z4QKIxOBJBRRIOxsQESGinrfdXO4JCwIyKjAwOIs/8S9V09V/Ve1c3hpf8Sade/+9/3//W/znOafofEZP7ABNsYwF/scBp9dvH+51TiZjwBRbIKWu9c8pYQiiF/2aBIzyBi9XyYdR841Ytw1lYmwm+NkBGbB4+pXgE23re2izgiBI6gYstXnFoiT4QjvSqtRsDQviH04PWjpH2XXkzMJrAe9pYZKvTY9a2SJo2Mr+8JXmAXAoEzDLhSSa822mCWOBUZkDMgetTA9KHZ5uXC1trWrtdrhWzjHazaSb8PQpGAbc0LZPw4arWbmew12GlL1jgEAscZwKha4FaJSbYzITAYniZtT/IL2TCPVVSbzbFln24oYYS5es4C3iHfW+pBYJwj7aMcrOpTNsfFrBKplzjWjLgN3DgPcpFWMm78+erJX/7sFrxQjcR8BuTtzYGIsgv7LjCiSB8cFWm0je9kX948srae3A5C/woZiXqJgiBj5h0e4IJveh7YbCPCce0m8CMWZtDV5rb7+XVXgXEW9slEMPLmOCwuc05EJS7gAXsTo4N5VKv8/axs2JgNH+qEmg2QAjeD92p4vtLBhyx8O7lgncRTwxdzAI+iCo3wfOxPQI/NrLezhbEj/nLtUvAbGVMsMBJrVTuVmufD3cYhYPYd8qt0NaSiSJ3aRYYKho43GDxwoy0zzvP3pc7J3Qxex9uNFXd7aTuFQrB5+bQ1bZC8IviFYeWWDzZkpt4sGXiYwbkZ53UPVnZ0vDVtkJQ0Dz39iqu9b3FK8LKJLfrKDHBMX3ro/NtHh5VKTlwr7F4Ad5sXPKoxSuOzjdApjupe4WyMKMOLQz2JfC+S1PIvMEl71uLVxjsSwPZMWKCffrQ3ApbWbyRCQ4pfplVuORda1LvIS6511n7Avcqw/+pDQqWTS9k70T4lawFCcqOm2q8JgXoy5UvxeitIeCVlLMfN9YabxFEyvRCtyDPRVknwH4ZrGnpt6yXUvvLwJuHFy5PAf+h/o+XbwFEjemFbgp3McG/VjueoBjvHViQCmTvwAL7fFUQ/1HyEp657Z1eaP+dYcJNTLAualEIP2F2zpD9k2pJBL4btSICdpYB2WXk/Gn+cw/zqjPVXilTKPnvNQ2i/hEPHOP9/fOi77KHCoNa4KuRu4XuKOBL2crMyYEr1Le5ll/VE7NXX1Ir1qgbSML0ggU+FLXh+j8HVKwlZLOYG6l4hAMJ8fgmF8bO7uysKmV6oVqL6E2Bm7jkXlZX0yngU7PnBBO8oQqpvowdTT+was6qakwvjGUORglAPmfls1Zmr/3989RSlvDWmOx03FzOYQ7c+5SMwL2JBf4c1hL2ves5wNuUOzYyzK46q6pjemFi5q2ofam6ZIaC17jkXhKTMTmyiAm/KbvUk03pE5tVNTm94Em4kAmfKJtzzRp5E3ocBANJnXG81Tdul8Uwuxrx5Ni5uubArEyxDe8n3FKzHLR74pioSIstOYejpcmRRRZPul9KFm0bMeGDuriGb3M8yOTd2dNT+UpighdTg5vwGSejctC6JWoFZ+DelVU5aJqYcHvt4MQtDckUrZWDpsik1xo+jb82LNdvvRy0Lzh9b2nY9Tq9Ttyt4Gw3dS04O0FdCc5OUebBeZqc3qT/AHorg8JmbXGoAAAAAElFTkSuQmCC">
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Process Associate (Air India) - IGT Solutions</h4>
+              <span>August 2023 — August 2023</span>
+              <p class="timeline-text">
+                I'm a Process Associate at IGT Solutions, working on the Air India process. As part of this BPO company,
+                my role involves handling tasks related to the Air India process. I'm dedicated to ensuring smooth
+                operations and delivering top-notch service in the aviation industry. With a focus on efficiency and
+                customer satisfaction, I will play a crucial role in supporting the airline's operations.
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD+klEQVR4nO1aT2wUZRRfDNQ/1YOJlYs2hQtGT1yUgGKAGrEcCAeCqIlJTZpouvPe7MZ4MV1DoxCjjX8SDHe4EAoxxoRbw4ELKVq1uJ33TSFtBQMteLDVQht/5vtmdna2u7XLdmd2Gvclk8l+f978fvO+9773vtlUqilNSY5g0n4YigYg9DsUo7qLbkD4c1zLPZRKikD46+oJlF1fppIiUDRtQDn0QtVzxN7mW2Y6lRSB/3bjmvf/IgI3+yQUD0LR7CrWfUQXaUxnIOm2lYkIn2s84BWvwWqIzHmDM0+nEiYYt9oNNuG5teeAteJrEolJ0LRIwgRNiyRM0AiLwOF9UPQbFE/BpdfWLhHFU8FuLDRZJ51oEqlV9HIyVhGahLL31kWnau7syRLcr0V0KRoLskoYxq2NUPQNhP+A4uP691J8KytpfK2xXEF1DPn3H6vBInSzoeCFv9UBwrsH7dcT6+xwrS4I/xIicAkO7SwZI/bLpj1M1LW6EkEEip+D0PchAhNwuQfIPVBxPFLroOggFLuhOReh0tsbQgSSfgpCJyC86IO5A6EPqj1xxHDPBkO4sPSF/4Hi03B4cyxEMPreo1D0EYT+8h34rkeoihORCoKJdx83AUDo74r6oiACoW4onim+QTqFPHXURXeeOow+zzIa+4x+XkRE+E4oGnbXU3dBINY7oXB9OyIi1ivGmT3d96DoqD7Br9+XAD4GRQsBEYc7o/aRL4pOTgqutWdVOh3uDKJYQW8Be/RRK7MVwsOhPeH0/To8tKN7kc/zC6Gf9ZeAUiKFk8Zxqz0yMjqECn8SInMLwm9WNVest8z4os99rPWZvlIidDbmdOTP0AZ3HmO9myoSGOvdZPqXzhPqC8aUEkm3mRPv2E7j09vh8tuh8DwHZWcxlFtv8Azl1pvfwZk0z5jx49aLfoSaxmiupYxIHAJFr/ogfgjazAukk6ElcxmKDnn3IKyeDPsThH/y8i7eDcd+PhiXpy0xEeFP/Yf2L0Py6hLLXdXtZWO1f3j9OvyeChEeiIdIca3vr9g/km2F0Gd6YzP3kWxrxXGufcDX8x0UZYrWtN+InIQBoPiKeeBY5plV6ZH0sz74X3XSafYUne4vk0HXXbxTFUPkidXpSbeFvwzD5R2aXN2ArgzA1OI6lXjJpPV+1Kl6/miuxcxzaKdPZDY6tP8FxORbJWXtoo5gEPoKyt6li6iyosrl3V4//xhOR3wiC40hItQHxRe8EpdulBEzPuRFKei6XftAaf89/y8gukS+AIc+TCVBcL3nEfPGFff7h95e3SI8FKozpqDoiBlXp8w5UoGkH4SwDcXzPoF5CLFubzS2mgQOHTYFmWu/XouCfwGeni+q+rBWBQAAAABJRU5ErkJggg==">
+            </div>
+            <h3 class="h3">Internship</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <a href="internship/Suven Consultants & Technology Private Limited.pdf" target="_blank">
+                <h4 class="h4 timeline-item-title internship">Data Analytics - Suven Consultants and Technology Pvt.
+                  Ltd.</h4>
+              </a>
+              <span>July 2022 — July 2022</span>
+              <p class="timeline-text">
+                Key Responsibility - I was Cultured concerning the Digits data set of the scikit-learn library provides
+                numerous data sets that are useful for testing many problems of data analysis and prediction of the
+                results learn a variety of Python.
+              </p>
+              <p class="timeline-text">
+                Key Achievement - Recognizing written by hand-plotted graphical points. Dealing with numerous issues in
+                perceiving various styles of composing of various individuals
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Bachelor of Computer Applications (BCA) - Guru Gobind Singh
+                Indraprastha University</h4>
+              <span>June 2020 — July 2023</span>
+              <p class="timeline-text">
+                BCA (Bachelor of Computer Applications) completed, equipped with comprehensive knowledge in computer
+                science and programming, ready to tackle real-world challenges and contribute to technological
+                advancements.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Senior Secondary (XII) - Darbari Lal D.A.V. Model School</h4>
+              <span>March 2019 — March 2020</span>
+              <p class="timeline-text">
+                Completed Class XII with excellent grades, demonstrating a strong academic performance. Acquired
+                comprehensive knowledge and skills in various subjects, displaying dedication, perseverance, and a
+                commitment to excellence. Ready to pursue further studies on a professional career.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Secondary (X) - Darbari Lal D.A.V. Model School</h4>
+              <span>March 2017 — March 2018</span>
+              <p class="timeline-text">
+                Class X successfully completed with outstanding performance, demonstrating exceptional knowledge and
+                skills. Exhibited a strong grasp of the subject matter, actively participated in discussions, and
+                consistently delivered high-quality assignments. A model student who sets a commendable example for
+                others.
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB6UlEQVR4nO2ZzUrDQBDHI+ihJz8u3vQB+hK+gj6AeBKq6GwQ9SJ68KjoVUGwT+LnSRT8QA/dtUp70BdQBEX/kuzS1rR+ZpJanT8shJ3ZzP6yk50l8TyRSBRL0LQFo9DUptV+fJBmQxjb2EBi36jZ8SEgPIKsSESSWkyCpFZEklpMgqTWN55IGscQpLEifwYkDUFAIpIVYRLkZY9Idi0mQXatiGTXYhIktSL6l6mFAg1B0y0M3eDSH2wpEFxN9UPT2TufOl+g1SmKk31JxecDMWrV+tAdND1DKx9GjYcQQZ+1rSQVn6eyFyd7YdSFm+wAyn6mYiv7mbDPjr8IfLnj84FoOrQpRGUUZzvr7NfUFdos6AF3fJYbAV4bDD05e/aD8Vnn8xiM+a0rknf2jQ/GbzifTe74nCA5Z198d7ymZeczwR2fEcQfc9tsCZqWcDTaUbFtL7SHfYHN+sxwx+cDKeW639YNfwxaLUDTfM1q2Xbu93DH564jif46Q+ogBZoLK7ymdRi1FtaOAk23HIiX0EQgIBF9lveR66D4HbsWFslGvj9pXlwFP+u/AoICjUCr+5qT733YxwJCe7FBPgWtO7pTvqbi8z3RpFUD8ACtqNpPw9VjfGuA7MLQSaODo31nAhvtNGd2XuvpFc2gOwnXzArGAAAAAElFTkSuQmCC">
+            </div>
+            <h3 class="h3">Certificate</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <a href="./certificate/DevOps Support Administrator (Infosys and Springboard).pdf" target="_blank">
+                <h4 class="h4 timeline-item-title certificate">DevOps Support Administrator: The Role of the Cloud
+                  Support Engineer - Infosys | Springboard
+                </h4>
+              </a>
+              <span>September 2023 — September 2023</span>
+              <p class="timeline-text">
+                I have completed a comprehensive course on IT support levels and transitioning from a traditional
+                Support Engineer to a Cloud Support Engineer. I've learned about the Cloud Adoption Framework phases,
+                Cloud Decision Support Framework, and Cloud Affinity Assessment. I can now evaluate cloud adoption
+                factors and use metrics for solution scoring. I understand multi-cloud considerations for support
+                strategies and Technical Support Services Guidelines for GCP resources. I've also acquired skills to
+                create support cases and requests for AWS and Azure resources, making me proficient in Cloud Support
+                Engineering.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <a href="./certificate/What is artificial intelligence (IBM).pdf" target="_blank">
+                <h4 class="h4 timeline-item-title certificate">What is Artificial Intelligence - IBM SkillsBuild
+                </h4>
+              </a>
+              <span>September 2023 — September 2023</span>
+              <p class="timeline-text">
+                I have completed a certificate program that delves into the intriguing realm of artificial intelligence.
+                This course investigates the fundamental question of whether computers can truly think, providing
+                insights from experts. It also covers essential concepts such as machine learning and deep learning,
+                enriching my understanding of AI technology.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <a href="./certificate/Google Ads Apps Certification.pdf" target="_blank">
+                <h4 class="h4 timeline-item-title certificate">Ads Apps Certification - Google Ads</h4>
+              </a>
+              <span>September 2023 — September 2023</span>
+              <p class="timeline-text">
+                I've earned the Google Ads Apps Certification, validating my proficiency in crafting effective Google
+                App campaigns. I comprehend the significance of these campaigns in driving user engagement, and I can
+                tailor them to specific marketing goals. My expertise includes advanced strategies for campaign
+                optimization, creative excellence, and accurate measurement, all while improving app quality and
+                discoverability.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <a href="./certificate/Artificial Intelligence in Practice (IBM).pdf" target="_blank">
+                <h4 class="h4 timeline-item-title certificate">Artificial Intelligence in Practice - IBM SkillsBuild
+                </h4>
+              </a>
+              <span>September 2023 — September 2023</span>
+              <p class="timeline-text">
+                This comprehensive program equipped me with practical knowledge and skills in AI applications, enabling
+                me to engage with chatbots, navigate self-driving car technology, and contribute to solving intricate
+                global challenges. This certification has empowered me to harness the potential of AI across various
+                domains effectively.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <a href="./certificate/Google Ads - Measurement Certification.pdf" target="_blank">
+                <h4 class="h4 timeline-item-title certificate">Measurement Certification - Google Ads</h4>
+              </a>
+              <span>September 2023 — September 2023</span>
+              <p class="timeline-text">
+                This certification showcases my expertise in measuring and optimizing digital ad performance through
+                Google's solutions. I can translate marketing objectives into measurable actions, set up effective
+                tracking, analyze conversion data, and choose the right attribution model for business goals. With this
+                certification, I'm well-prepared to enhance Google Ads performance and deliver tangible results for
+                businesses.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <a href="./certificate/Introduction to Artificial Intelligence (LinkedIn Learning).pdf" target="_blank">
+                <h4 class="h4 timeline-item-title certificate">Introduction to Artificial Intelligence - LinkedIn
+                  Learning</h4>
+              </a>
+              <span>September 2023 — September 2023</span>
+              <p class="timeline-text">
+                I've gained crucial AI knowledge, distinguishing symbolic systems from machine learning, comprehending
+                the intricacies of natural language processing, and defining machine learning types. Proficient in
+                recognizing algorithm significance in machine learning, I can determine suitable AI application
+                conditions. Furthermore, I can evaluate the distinctions between artificial intelligence and machine
+                learning for informed business decisions. This certificate underscores my commitment to staying at AI's
+                forefront, ready to apply expertise to real-world challenges and foster innovation.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <a href="./certificate/Career Essentials in Generative AI (Microsoft and LinkedIn Learning).pdf"
+                target="_blank">
+                <h4 class="h4 timeline-item-title certificate">Career Essentials in Generative AI - Microsoft | LinkedIn
+                  Learning</h4>
+              </a>
+              <span>August 2023 — September 2023</span>
+              <p class="timeline-text">
+                I've gained a profound understanding of generative AI models. This program has equipped me with
+                essential knowledge about the ethical considerations surrounding the use of generative AI, emphasizing
+                responsible and ethical AI practices. Additionally, I have explored the significant impact of generative
+                AI tools, positioning me to harness their potential in innovative and ethically responsible ways,
+                contributing to the evolving landscape of artificial intelligence.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <a href="./certificate/Techniques for Big Data Analytics (Infosys and Springboard).pdf" target="_blank">
+                <h4 class="h4 timeline-item-title certificate">Techniques for Big Data Analytics - Infosys | Springboard
+                </h4>
+              </a>
+              <span>August 2023 — August 2023</span>
+              <p class="timeline-text">
+                I gained a profound understanding of fundamental Big Data principles, encompassing data collection,
+                storage, processing, and analysis. My hands-on experience in data manipulation, transformation, and
+                visualization, coupled with a deep dive into ethical considerations, equips me to excel in data-centric
+                roles. I successfully completed test with my proficiency. This joint certificate underscores my
+                expertise in driving data-informed decision-making and innovation.
+              </p>
+            </li>
+          </ol>
+        </section>
+        <section class="skill">
+          <h3 class="h3 skills-title">My Programming Languages</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="70">70%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">PHP</h5>
+                <data value="40">40%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 40%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="70">70%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Node JS</h5>
+                <data value="60">60%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Tailwind CSS</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">MongoDB</h5>
+                <data value="40">40%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 40%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">MySQL</h5>
+                <data value="60">60%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Bootstrap</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="skill">
+          <h3 class="h3 skills-title">My Skills and Proficiencies</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Problem Solver</h5>
+                <!-- <data value="80">80%</data> -->
+              </div>
+              <!-- <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div> -->
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Website Design/Development</h5>
+                <!-- <data value="80">80%</data> -->
+              </div>
+              <!-- <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div> -->
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Game Developer</h5>
+                <!-- <data value="70">65%</data> -->
+              </div>
+              <!-- <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div> -->
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Content Writing/Editing</h5>
+                <!-- <data value="85">85%</data> -->
+              </div>
+              <!-- <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div> -->
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Multitasker</h5>
+                <!-- <data value="70">65%</data> -->
+              </div>
+              <!-- <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div> -->
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Creative</h5>
+                <!-- <data value="85">85%</data> -->
+              </div>
+              <!-- <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div> -->
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Active Listener</h5>
+                <!-- <data value="50">70%</data> -->
+              </div>
+              <!-- <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div> -->
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Continuous Learning</h5>
+                <!-- <data value="50">70%</data> -->
+              </div>
+              <!-- <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div> -->
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- Service -->
+      <article class="about active" data-page="services">
+        <header>
+          <h2 class="h2 article-title">Services</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            Coming Soon...
+          </p>
+        </section>
+      </article>
+
+      <!-- Portfolio -->
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Website Design</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Web Application</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Game</button>
+            </li>
+          </ul>
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+            <ul class="select-list" <li class="select-item">
+              <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Website Design</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Web Application</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Game</button>
+              </li>
+            </ul>
+          </div>
+          <ul class="project-list">
+            <li class="project-item  active" data-filter-item data-category="game">
+              <a href="./project/games/2048-game">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./asset/img/portfolio/game/game-6.png" alt="2048 Game" loading="lazy">
+                </figure>
+                <h3 class="project-title">2048</h3>
+                <p class="project-category">Game</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="website design">
+              <a href="./project/web-design/blogy">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./asset/img/portfolio/design/design-3.png" alt="Blogy" loading="lazy">
+                </figure>
+                <h3 class="project-title">Blogy</h3>
+                <p class="project-category">Blog Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="website design">
+              <a href="./project/web-design/booken">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./asset/img/portfolio/design/design-5.png" alt="Booken" loading="lazy">
+                </figure>
+                <h3 class="project-title">Booken</h3>
+                <p class="project-category">E-Commerce Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="website design">
+              <a href="./project/web-design/bookish">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./asset/img/portfolio/design/design-6.png" alt="Bookish" loading="lazy">
+                </figure>
+                <h3 class="project-title">Bookish</h3>
+                <p class="project-category">Education Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="game">
+              <a href="./project/games/breakout-game">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./asset/img/portfolio/game/game-5.png" alt="Breakout Game" loading="lazy">
+                </figure>
+                <h3 class="project-title">Breakout</h3>
+                <p class="project-category">Game</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="website design">
+              <a href="./project/web-design/camp">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./asset/img/portfolio/design/design-18.png" alt="Camp" loading="lazy">
+                </figure>
+                <h3 class="project-title">Camp</h3>
+                <p class="project-category">Travel Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="game">
+              <a href="./project/games/car-dash-game">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./asset/img/portfolio/game/game-1.png" alt="Car Dash Game" loading="lazy">
+                </figure>
+                <h3 class="project-title">Car Dash</h3>
+                <p class="project-category">Game</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="website design">
+              <a href="./project/web-design/cineflix">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./asset/img/portfolio/design/design-2.png" alt="CineFlix" loading="lazy">
+                </figure>
+                <h3 class="project-title">CineFlix</h3>
+                <p class="project-category">Movie Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="website design">
+              <a href="./project/web-design/covid-19">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./asset/img/portfolio/design/design-4.png" alt="Covid-19" loading="lazy">
+                </figure>
+                <h3 class="project-title">Covid-19</h3>
+                <p class="project-category">Covid-19 Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="game">
+              <a href="./project/games/doodler-jump-game">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./asset/img/portfolio/game/game-4.png" alt="Doodler Jump Game" loading="lazy">
+                </figure>
+                <h3 class="project-title">Doodler Jump</h3>
+                <p class="project-category">Game</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="website design">
+              <a href="./project/web-design/easybank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./asset/img/portfolio/design/design-15.png" alt="Easybank" loading="lazy">
+                </figure>
+                <h3 class="project-title">Easybank</h3>
+                <p class="project-category">Bank Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="website design">
+              <a href="./project/web-design/eduhome">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./asset/img/portfolio/design/design-7.png" alt="EduHome" loading="lazy">
+                </figure>
+                <h3 class="project-title">EduHome</h3>
+                <p class="project-category">Education Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="website design">
+              <a href="./project/web-design/eduland">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./asset/img/portfolio/design/design-11.png" alt="EduLand" loading="lazy">
+                </figure>
+                <h3 class="project-title">Eduland</h3>
+                <p class="project-category">Education Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="website design">
+              <a href="./project/web-design/eduweb">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./asset/img/portfolio/design/design-12.png" alt="Eduweb" loading="lazy">
+                </figure>
+                <h3 class="project-title">Eduweb</h3>
+                <p class="project-category">E-Commerce Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="website design">
+              <a href="./project/web-design/fitlife">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./asset/img/portfolio/design/design-13.png" alt="Fitlife" loading="lazy">
+                </figure>
+                <h3 class="project-title">Fitlife</h3>
+                <p class="project-category">Fitness Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="game">
+              <a href="./project/games/flappy-bird-game">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./asset/img/portfolio/game/game-3.png" alt="Flappy Bird Game" loading="lazy">
+                </figure>
+                <h3 class="project-title">Flappy Bird</h3>
+                <p class="project-category">Game</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="website design">
+              <a href="./project/web-design/footcap">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./asset/img/portfolio/design/design-9.png" alt="Footcap" loading="lazy">
+                </figure>
+                <h3 class="project-title">Footcap</h3>
+                <p class="project-category">E-Commerce Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="website design">
+              <a href="./project/web-design/gamex">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./asset/img/portfolio/design/design-1.png" alt="Gamex" loading="lazy">
+                </figure>
+                <h3 class="project-title">Gamex</h3>
+                <p class="project-category">Gaming Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="website design">
+              <a href="./project/web-design/gamics">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./asset/img/portfolio/design/design-17.png" alt="Gamics" loading="lazy">
+                </figure>
+                <h3 class="project-title">Gamics</h3>
+                <p class="project-category">Gaming Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="website design">
+              <a href="./project/web-design/kitter">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./asset/img/portfolio/design/design-16.png" alt="Kitter" loading="lazy">
+                </figure>
+                <h3 class="project-title">Kitter</h3>
+                <p class="project-category">E-Commerce Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web application">
+              <a href="./project/web-application/meme-generator">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./asset/img/portfolio/application/project-2.png" alt="Meme Generater" loading="lazy">
+                </figure>
+                <h3 class="project-title">Meme Generater</h3>
+                <p class="project-category">Meme Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="website design">
+              <a href="./project/web-design/micro">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./asset/img/portfolio/design/design-14.png" alt="Micro" loading="lazy">
+                </figure>
+                <h3 class="project-title">Micro</h3>
+                <p class="project-category">Podcast Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web application">
+              <a href="./project/web-application/music-player">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./asset/img/portfolio/application/project-3.png" alt="Music Player" loading="lazy">
+                </figure>
+                <h3 class="project-title">Music Player</h3>
+                <p class="project-category">Music Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="game">
+              <a href="./project/games/quiz-game">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./asset/img/portfolio/game/game-2.png" alt="Quiz Game" loading="lazy">
+                </figure>
+                <h3 class="project-title">Quiz</h3>
+                <p class="project-category">Game</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="website design">
+              <a href="./project/web-design/shoppie">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./asset/img/portfolio/design/design-8.png" alt="Shoppie" loading="lazy">
+                </figure>
+                <h3 class="project-title">Shoppie</h3>
+                <p class="project-category">E-Commerce Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web application">
+              <a href="./project/web-application/task-buddy">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./asset/img/portfolio/application/project-1.png" alt="Task Buddy" loading="lazy">
+                </figure>
+                <h3 class="project-title">Task Buddy</h3>
+                <p class="project-category">Todo Website</p>
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="website design">
+              <a href="./project/web-design/youdemi">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./asset/img/portfolio/design/design-10.png" alt="Youdemi" loading="lazy">
+                </figure>
+                <h3 class="project-title">Youdemi</h3>
+                <p class="project-category">Education Website</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!-- Store -->
+      <article class="about active" data-page="store">
+        <header>
+          <h2 class="h2 article-title">Store</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            Coming Soon...
+          </p>
+        </section>
+      </article>
+
+      <!-- Blog -->
+      <article class="blog" data-page="blog">
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+        <section class="blogs">
+          <ul class="blogs-list has-scrollbar">
+            <li class="blogs-item">
+              <div class="content-card" data-blogs-item>
+                <figure class="blogs-avatar-box">
+                  <img src="./asset/img/portfolio/blog/blog-8.jpeg" alt="Blog 8" data-blogs-avatar>
+                </figure>
+                <div class="blog-meta">
+                  <h4 class="h4 blogs-item-title" data-blogs-title>A Week of Unpredictability: Progress, Challenges, and Unexpected News</h4>
+                  <time datetime="2023-10-14" data-blogs-time>October 14, 2023</time>
+                </div>
+                <div class="blogs-text" data-blogs-text>
+                  <p>
+                  <h4 class="h4">Saturday, October 7, 2023 - Reflecting and Practicing:</h4>
+                  <p>
+                    Today began with a sense of accomplishment as I posted my weekly blog, chronicling the experiences
+                    and insights gained over the past week. This practice has become a responsibility that I eagerly
+                    embrace, as it allows me to reflect on my journey and share my growth with others.
+                  </p>
+                  <p>
+                    Furthermore, it was a special day as I was granted a holiday from my internship, providing me with
+                    the gift of extra time. This leisurely day was used wisely to delve into design topics, practice my
+                    skills, and tackle some extra and leftover work. Meeting deadlines is crucial, and I was determined
+                    not to let anything fall by the wayside.
+                  </p>
+                  <h4 class="h4">Sunday, October 8, 2023 - Embracing Productivity:</h4>
+                  <p>
+                    As Sunday dawned, I felt the inertia of the month setting in. This day of a month often
+                    brings a sense of novelty but also a touch of laziness. To combat this, I kept myself busy
+                    throughout the day, ensuring that idleness wouldn't deter my productivity.
+                  </p>
+                  <p>
+                    In these moments of tranquility, I find the energy to prepare for the upcoming week, setting a
+                    proactive tone. Keeping my mind engaged and motivated is essential, and I take pride in using my
+                    Sundays wisely.
+                  </p>
+                  <h4 class="h4">Monday, October 9, 2023 - A Moment of Achievement:</h4>
+                  <p>
+                    Today was nothing short of exhilarating. I received a call from my college regarding my mark sheet -
+                    the culmination of three years of hard work. It's been three months since my exams concluded, and
+                    the arrival of my final mark sheet marked the end of an era.
+                  </p>
+                  <p>
+                    This document is not just a certificate; it's a symbol of my dedication and persistence. It's a key
+                    that unlocks doors to further studies and career opportunities. The sense of accomplishment that
+                    washed over me is indescribable.
+                  </p>
+                  <h4 class="h4">Tuesday, October 10, 2023 - Balancing Responsibilities:</h4>
+                  <p>
+                    The day started with my regular tasks, but a sudden turn of events demanded my presence at my
+                    father's store. My father had an urgent appointment, and I had to step in and manage the store in
+                    his absence. It was a half-day commitment, which meant I had less time to complete my daily tasks.
+                  </p>
+                  <p>
+                    Nonetheless, I successfully juggled my responsibilities, ensuring that my prior commitments were
+                    met. I also managed to squeeze in some reading, expanding my knowledge by delving into various
+                    content and articles.
+                  </p>
+                  <h4 class="h4">Wednesday, October 11, 2023 - Facing Setbacks:</h4>
+                  <p>
+                    Today was a challenging day. I received some disheartening news related to my internship, which left
+                    me feeling disturbed and unsettled. It's moments like these that test our resilience and
+                    determination.
+                  </p>
+                  <p>
+                    I understood that setbacks are an integral part of any journey, and while this news stung, I was
+                    determined to persevere. My focus was on finding solutions and making a step toward future
+                    achievements. At this stage, I must remain patient and await further confirmations regarding the
+                    situation.
+                  </p>
+                  <h4 class="h4">Thursday, October 12, 2023 - A Day of Self-Motivation:</h4>
+                  <p>
+                    Today was a day shrouded in a sense of melancholy, as I mentioned yesterday. Yet, I summoned the
+                    inner strength to turn it around. I refused to let sadness dominate my day, choosing instead to
+                    channel my energy into productivity.
+                  </p>
+                  <p>
+                    I decided to conduct research on new topics, absorbing fresh knowledge and learning. This proactive
+                    approach lifted my spirits and set a positive tone for the day. It was a reminder that even on our
+                    lowest days, we can find the strength to keep moving forward.
+                  </p>
+                  <h4 class="h4">Friday, October 13, 2023 - A Promising End to the Week:</h4>
+                  <p>
+                    Today was a positive day on many fronts. I managed to regain my routine and stay on course.
+                    Additionally, I received an invitation for an interview from a company on Internshala, a promising
+                    opportunity that I look forward to.
+                  </p>
+                  <p>
+                    As part of my commitment to self-improvement, I continued to upskill and worked on new projects.
+                    These projects, soon to be shared, represent my dedication to personal and professional growth. You
+                    can explore both my old and new designs on my portfolio website, so stay tuned for updates.
+                  </p>
+                  <p>
+                    This week, though marked by challenges and surprises, has reaffirmed my commitment to growth,
+                    resilience, and the pursuit of new opportunities. It's a testament to the dynamic nature of our
+                    journeys, where each day brings its unique blend of experiences and lessons.
+                  </p>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="blogs-item">
+              <div class="content-card" data-blogs-item>
+                <figure class="blogs-avatar-box">
+                  <img src="./asset/img/portfolio/blog/blog-7.jpeg" alt="Blog 7" data-blogs-avatar>
+                </figure>
+                <div class="blog-meta">
+                  <h4 class="h4 blogs-item-title" data-blogs-title>A Week of Progress: Learning, Challenges and
+                    Productivity</h4>
+                  <time datetime="2023-10-07" data-blogs-time>October 07, 2023</time>
+                </div>
+                <div class="blogs-text" data-blogs-text>
+                  <p>
+                  <h4 class="h4">Saturday, September 30, 2023 - A Day of Responsibility and Creativity:</h4>
+                  <p>
+                    The day began with a sense of responsibility as I posted my weekly blog. It's a ritual I've come to
+                    value greatly as it not only helps me document my experiences but also reinforces my commitment to
+                    self-improvement.
+                  </p>
+                  <p>
+                    What made this Saturday even better was the fact that it was a holiday from my internship. With
+                    fewer professional obligations, I decided to invest my time wisely. I delved into topics related to
+                    design, pushing the boundaries of my creative skills. The hours flew by as I immersed myself in
+                    practice and even tackled some extra tasks and lingering work to meet impending deadlines. It was a
+                    day marked by productivity and a sense of accomplishment.
+                  </p>
+                  <h4 class="h4">Sunday, October 1, 2023 - Balancing Rest and Productivity:</h4>
+                  <p>
+                    Sundays are typically associated with rest and relaxation, but I knew the importance of maintaining
+                    productivity even on a day of rest. Given that it was also the first day of a new month, I decided
+                    to be proactive to avoid the lethargy that can sometimes accompany the beginning of a month.
+                  </p>
+                  <p>
+                    So, I kept myself engaged throughout the day, striking a careful balance between rest and
+                    productivity. I understood that getting into a productive rhythm early in the month would set a
+                    positive tone for the days ahead.
+                  </p>
+                  <h4 class="h4">Monday, October 2, 2023 - A Day of Reflection and Design Exploration:</h4>
+                  <p>
+                    This Monday held special significance as it was a national holiday in India, commemorating the birth
+                    of Mahatma Gandhi, the Father of the Nation. With my internship temporarily paused, I seized the
+                    opportunity to explore new design ideas and layouts for the upcoming projects in my queue.
+                  </p>
+                  <p>
+                    Rather than idling away the day, I found inspiration in the rich history and values associated with
+                    Gandhi Jayanti. It's remarkable how a day of rest can spark creativity, and I was determined to
+                    harness that energy to improve my design skills.
+                  </p>
+                  <h4 class="h4">Tuesday, October 3, 2023 - Design Challenges and Content Integration:</h4>
+                  <p>
+                    Tuesday turned out to be a challenging day, filled with frustration and fatigue. The primary focus
+                    was on creating design samples for a specific section of a website. After an exhaustive review
+                    session with my manager, one of the designs was chosen. This meant that my task for the day was to
+                    enhance the selected design and prepare it for content integration, a task I planned to tackle
+                    diligently the following day.
+                  </p>
+                  <h4 class="h4">Wednesday, October 4, 2023 - Managing the Routine and Portfolio:</h4>
+                  <p>
+                    Wednesday followed my usual routine, with coding, GitHub updates, and a scheduled internship
+                    meeting. However, I also embarked on a parallel mission - improving my portfolio website.
+                  </p>
+                  <p>
+                    This seemingly mundane task involved managing file directories, arranging content for ease of
+                    maintenance, and conducting comprehensive reviews. It proved to be an arduous undertaking,
+                    particularly because of the complexity of updating numerous paths and ensuring everything was in the
+                    right sequence and order.
+                  </p>
+                  <h4 class="h4">Thursday, October 5, 2023 - Completing Path Restructuring:</h4>
+                  <p>
+                    Thursday marked the triumphant completion of the path restructuring for my portfolio website. This
+                    was no small feat - it was a taxing and time-consuming endeavor that required unwavering focus and
+                    determination.
+                  </p>
+                  <p>
+                    What added to my sense of achievement was the revelation from the Lighthouse report for my website.
+                    Prior to the path restructuring, the report had highlighted several shortcomings. However, after the
+                    restructuring, all indicators had turned green, signifying significant improvements in all aspects.
+                    Although there was room for further performance enhancements, I was elated by this progress.
+                  </p>
+                  <h4 class="h4">Friday, October 6, 2023 - A Final Push and an Unexpected Challenge:</h4>
+                  <p>
+                    The week concluded on a somewhat unexpected note. It was the day to submit the final project to the
+                    company, and just as I was about to hit "submit," I received an additional task - to add a real-time
+                    feature to one section. This wasn't just any feature; it required real-time functionality and
+                    presented an intriguing challenge.
+                  </p>
+                  <p>
+                    Determined to meet this new challenge head-on, I delved into the task with unwavering dedication.
+                    The hours passed quickly, and even as the night advanced, I was immersed in this exciting and
+                    demanding project.
+                  </p>
+                  <p>
+                    As I reflect on this week, I'm reminded that every day brings its unique blend of challenges and
+                    opportunities. It's the commitment to constant learning, the resilience to overcome obstacles, and
+                    the pursuit of excellence that defines my journey. It's a path marked by highs and lows, but the
+                    unwavering determination to press forward remains constant.
+                  </p>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="blogs-item">
+              <div class="content-card" data-blogs-item>
+                <figure class="blogs-avatar-box">
+                  <img src="./asset/img/portfolio/blog/blog-6.jpeg" alt="Blog 6" data-blogs-avatar>
+                </figure>
+                <div class="blog-meta">
+                  <h4 class="h4 blogs-item-title" data-blogs-title>A Week of Transformation: Challenges, Achievements,
+                    and Growth</h4>
+                  <time datetime="2023-09-30" data-blogs-time>September 30, 2023</time>
+                </div>
+                <div class="blogs-text" data-blogs-text>
+                  <p>
+                  <h4 class="h4">Saturday, September 23, 2023 - Reflecting and Practicing:</h4>
+                  <p>
+                    Today has started on a positive note. First thing in the morning, I sat down to post my weekly blog,
+                    a ritual that helps me reflect on my past week's experiences. This practice has become a
+                    responsibility I look forward to, as it allows me to chart my growth journey.
+                  </p>
+                  <p>
+                    What's more, today is a holiday from my internship, which means I have a bit less work to tackle.
+                    Despite the break, I decided to delve into some design topics, honing my skills further. The day was
+                    dedicated to hands-on practice, and I relished every moment of it.
+                  </p>
+                  <h4 class="h4">Sunday, September 24, 2023 - Certificates and Portfolio Update:</h4>
+                  <p>
+                    Sundays are synonymous with relaxation, but they also offer time for personal development. Today,
+                    while I allowed myself some well-deserved rest, I took the opportunity to check on my certificates.
+                    You might recall my previous blog mentioning my struggle with Infosys and Springspoon's website,
+                    which had been crashing repeatedly.
+                  </p>
+                  <p>
+                    In a pleasant turn of events, the website issues seem to have been resolved. I wasted no time and
+                    promptly downloaded all my hard-earned certificates. Adding these accolades to my portfolio website
+                    under the resume section was a satisfying task, as it stands as a testament to my commitment to
+                    continuous learning. With my portfolio updated, I felt a sense of accomplishment.
+                  </p>
+                  <h4 class="h4">Monday, September 25, 2023 - A Day of Adaptation:</h4>
+                  <p>
+                    Monday arrived with its usual hustle and bustle. I diligently followed my daily routine, balancing
+                    multiple tasks, including design work, certification, and more. However, this day was marked by an
+                    unexpected twist - a sudden internet outage due to technical issues.
+                  </p>
+                  <p>
+                    This setback could have been frustrating, but I chose to adapt. Unable to carry on with my
+                    internship work, I shifted my focus to reading articles and watching educational videos. As the
+                    evening rolled in, the internet connection was restored, allowing me to complete some pending tasks,
+                    ensuring a smoother day tomorrow.
+                  </p>
+                  <h4 class="h4">Tuesday, September 26, 2023 - Learning from Setbacks:</h4>
+                  <p>
+                    Today was a day for resilience. It began like any other day with my regular routine and a commitment
+                    to tasks like designing and certification. However, my spirits took a hit when our internet
+                    connection faltered due to technical glitches. This unfortunate disruption hampered my internship
+                    work, leaving me frustrated.
+                  </p>
+                  <p>
+                    In the face of adversity, I turned to learning. I spent the day reading insightful articles and
+                    watching educational videos, determined not to let this setback deter me. As the evening approached,
+                    the internet was back, and I seized the opportunity to catch up on some work, ensuring a more
+                    manageable workload for the following day.
+                  </p>
+                  <h4 class="h4">Wednesday, September 27, 2023 - Meeting Milestones:</h4>
+                  <p>
+                    Today was meticulously planned. I stuck to my daily routine, dedicating significant time to my
+                    internship work. One of the key tasks was to complete a login page for the company's project, with
+                    only responsiveness and a few design elements remaining. In addition to this, I tackled a Google Ads
+                    certification test.
+                  </p>
+                  <p>
+                    While the first attempt at the Google Ads test yielded a narrow miss, I refused to be disheartened.
+                    Instead, I used the experience as a valuable lesson, identifying where I had fallen short and
+                    preparing to give the test another shot tomorrow. The day took a positive turn when I decided to
+                    take another Google Ads test, and to my delight, I passed. It was a day filled with learning and
+                    milestones.
+                  </p>
+                  <h4 class="h4">Thursday, September 28, 2023 - Preparing for the Future:</h4>
+                  <p>
+                    Today was a day of routine tasks and preparations for the future. I followed my usual routine,
+                    focusing on updates, designs, and various tasks. With the end of the month approaching, I dedicated
+                    time to wrap up pending work and plan for the next month efficiently. This structured approach helps
+                    me stay organized and maintain productivity.
+                  </p>
+                  <p>
+                    Today also marked the occasion of Ganesh Visarjan, signifying the end of the ten-day long Ganesh
+                    Chaturthi festival. Devotees bid farewell to Lord Ganesha by immersing his idol in water bodies,
+                    symbolizing his departure with the hope of his return next year. It was a day of reflection on
+                    traditions and the cyclical nature of life.
+                  </p>
+                  <h4 class="h4">Friday, September 29, 2023 - Overcoming Challenges:</h4>
+                  <p>
+                    Today was tinged with challenges but filled with determination. I faced a bit of adversity when the
+                    designs I had created for a project didn't meet the manager's expectations. This led to a candid
+                    discussion where they advised me to reevaluate and refine the designs.
+                  </p>
+                  <p>
+                    Instead of feeling disheartened, I embraced this feedback as valuable guidance. I assured my
+                    managers that I would work diligently to recreate the designs and provide them with a better version
+                    as soon as possible. The rest of my day was dedicated to brainstorming new design concepts and
+                    discussing plans with my managers, ensuring that my work aligns more closely with their
+                    expectations.
+                  </p>
+                  <p>
+                    In the face of this challenge, I chose to view it as an opportunity for growth and improvement, a
+                    reminder that every obstacle can be transformed into a stepping stone towards success.
+                  </p>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="blogs-item">
+              <div class="content-card" data-blogs-item>
+                <figure class="blogs-avatar-box">
+                  <img src="./asset/img/portfolio/blog/blog-5.jpeg" alt="Blog 5" data-blogs-avatar>
+                </figure>
+                <div class="blog-meta">
+                  <h4 class="h4 blogs-item-title" data-blogs-title>A Week in Reflection: Embracing Accomplishments and
+                    Fresh Beginnings</h4>
+                  <time datetime="2023-09-23" data-blogs-time>September 23, 2023</time>
+                </div>
+                <div class="blogs-text" data-blogs-text>
+                  <p>
+                  <h4 class="h4">Saturday, September 16, 2023 - Reflecting and Portfolio Update:</h4>
+                  <p>
+                    This Saturday started on a high note. I kicked things off by sharing my weekly blog, where I jot
+                    down what I've been up to and what I've learned during the past week. It's a responsibility I've
+                    taken upon myself, and it feels great to keep it going.
+                  </p>
+                  <p>
+                    But that wasn't all. I also spent some quality time enhancing my skills. I earned a certificate from
+                    IBM SkillsBuild in Artificial Intelligence in Practice. This course was super interesting because it
+                    showed how artificial intelligence, like the one we see as Jarvis in Iron Man movies, makes our
+                    lives simpler. I was even inspired by a video featuring Mark Zuckerberg, where he talked about how
+                    an AI named Jarvis helps him in his daily life and work. And hey, I proudly added that certificate
+                    to my portfolio website, showing off my commitment to learning.
+                  </p>
+                  <p>
+                    And that's not all - I gave my LinkedIn profile a makeover. I updated my headlines, profile picture,
+                    banner, and shared more about my experiences. The idea was to make it easier for potential employers
+                    to understand who I am and what I bring to the table.
+                  </p>
+                  <h4 class="h4">Sunday, September 17, 2023 - A Day to Recharge:</h4>
+                  <p>
+                    Ah, Sundays! They're like a reset button for me. I started the day by sleeping in a bit, allowing my
+                    body and mind to recover fully. It's crucial to recharge for the week ahead.
+                  </p>
+                  <p>
+                    This was a day of pure relaxation. I consciously avoided overloading myself with work. Instead, I
+                    took some time to plan out my upcoming week, especially what courses I wanted to tackle. So, while
+                    it was a rest day, it was also a day to prepare for a productive week ahead.
+                  </p>
+                  <h4 class="h4">Monday, September 18, 2023 - A Big Step in My Career:</h4>
+                  <p>
+                    Monday was a game-changer. I got a call from a company that I had been hoping to hear from. They
+                    wanted to discuss my selection for an internship. We chatted about work hours, roles, and all the
+                    details. It was a flurry of emails, talks with my future manager, and the official offer letter.
+                    This day felt like a huge win. It was a clear sign that my hard work was paying off.
+                  </p>
+                  <h4 class="h4">Tuesday, September 19, 2023 - Preparing for the New Gig:</h4>
+                  <p>
+                    This day started with my usual routine, but the excitement was building. In the evening, I received
+                    a call from the company, inviting me to an induction meeting. This was where they'd tell me all
+                    about my role, responsibilities, and what they expected from me during the internship.
+                  </p>
+                  <p>
+                    So, while I prepared for this new adventure, I also used the day to get some design work done, work
+                    on certifications, and sharpen my skills. It was all about getting ready for the exciting journey
+                    ahead.
+                  </p>
+                  <h4 class="h4">Wednesday, September 20, 2023 - The Start of My Internship:</h4>
+                  <p>
+                    Wednesday marked the commencement of my internship in the field of design. The day began with a
+                    meeting where the HR and managers filled me in on what I'd be doing. They even showed me some
+                    websites I'd be working on.
+                  </p>
+                  <p>
+                    After that energizing meeting, I made a plan for the day. I focused on the tasks at hand, and I
+                    realized that I needed to learn more about WordPress, which was essential for my role. So, I hit up
+                    YouTube for some beginner-friendly tutorials on how to use WordPress. This was the start of a
+                    memorable journey.
+                  </p>
+                  <h4 class="h4">Thursday, September 21, 2023 - Navigating New Waters:</h4>
+                  <p>
+                    Thursday was all about planning and executing. I had a checklist of tasks to complete. Since I was
+                    in a design internship, I had to create two sections for a service website and get them up and
+                    running. Plus, there was this cool floating button I had to design for another website. It was
+                    exciting!
+                  </p>
+                  <p>
+                    But there was more. I realized that I needed to understand WordPress plugins and how they worked
+                    because my company used them. So, I spent some time learning about them. And to top it all off, I
+                    visited a temple for Ganesh pooja to seek blessings.
+                  </p>
+                  <h4 class="h4">Friday, September 22, 2023 - Meeting the Deadline with Determination:</h4>
+                  <p>
+                    Friday was a busy day. I had to finish the tasks that the company's HR had assigned to me. These
+                    were important design projects, and the deadline was looming large.
+                  </p>
+                  <p>
+                    Despite the pressure, I planned my day carefully, making sure I used my time wisely. I managed to
+                    complete the tasks and merge the code with the company's main project on GitHub. It was a big
+                    achievement, and I was relieved that I met the deadline.
+                  </p>
+                  <p>
+                    As the week wrapped up, I couldn't help but look back at how much I had accomplished. From career
+                    milestones to learning new skills and starting a new chapter, it was a week that reminded me of the
+                    power of determination, planning, and continuous learning in my journey, both professionally and
+                    personally.
+                  </p>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="blogs-item">
+              <div class="content-card" data-blogs-item>
+                <figure class="blogs-avatar-box">
+                  <img src="./asset/img/portfolio/blog/blog-4.jpg" alt="Blog 4" data-blogs-avatar>
+                </figure>
+                <div class="blog-meta">
+                  <h4 class="h4 blogs-item-title" data-blogs-title>A Week of Success: Navigating Challenges and Growth
+                  </h4>
+                  <time datetime="2023-09-16" data-blogs-time>September 16, 2023</time>
+                </div>
+                <div class="blogs-text" data-blogs-text>
+                  <p>
+                  <h4 class="h4">Saturday, September 9, 2023 - A Day of Milestones:</h4>
+                  <p>
+                    Saturday started with a big accomplishment. I posted my weekly blog, where I write about the
+                    important things I did and what I learned during the week. This is a special day for me because it
+                    reminds me to be responsible and keep track of my progress.
+                  </p>
+                  <p>
+                    But the most exciting part of the day was when I took a test for a Microsoft certificate. After a
+                    lot of studying and hard work, I passed the test! This means I now have a certificate from Microsoft
+                    that shows I'm really good at something. I proudly added it to my portfolio, a place where I keep
+                    all my certificates and achievements.
+                  </p>
+                  <h4 class="h4">Sunday, September 10, 2023 - A Day of Rest and Planning:</h4>
+                  <p>
+                    Sundays are my days to relax and get ready for the new week. I slept in a bit because I wanted to
+                    rest and get my energy back. Resting is important so that I can be full of energy for the week
+                    ahead.
+                  </p>
+                  <p>
+                    Even though it was mostly a rest day, I also spent some time making plans for the coming week. I
+                    thought about what new courses or certificates I want to study. Tomorrow, I'm going to work on
+                    improving my skills and getting more done.
+                  </p>
+                  <h4 class="h4">Monday, September 11, 2023 - A Day of Opportunities:</h4>
+                  <p>
+                    Monday seemed like an ordinary day, but it turned out to be quite interesting. First, I tried to
+                    find a new course to study, but I ran into a problem. The website I needed to use kept crashing,
+                    which means it wasn't working properly.
+                  </p>
+                  <p>
+                    But then, something exciting happened. I got a call from a company's Human Resources (HR) department
+                    in Rohini. They wanted to talk to me about a job! After we talked, they decided that I'm a great fit
+                    for the job and they want to see me again for more interviews. I even have an interview with the
+                    Managing Director (MD) of the company. So, I had to start getting ready for that.
+                  </p>
+                  <h4 class="h4">Tuesday, September 12, 2023 - A Day of Interviews:</h4>
+                  <p>
+                    Tuesday started like any other day. I woke up, got ready, and practiced talking to people because I
+                    had some interviews coming up. These interviews help me get better at talking to others.
+                  </p>
+                  <p>
+                    I had an important interview scheduled at Netaji Subhash Palace near D-Mall for a job I've been
+                    working on. It was a bit far, but I was excited.
+                  </p>
+                  <p>
+                    On top of that, I got an invitation from Internshala. Another company liked what they saw in my
+                    profile and wanted to interview me. So, I had to make plans for that too!
+                  </p>
+                  <h4 class="h4">Wednesday, September 13, 2023 - A Day of Promise:</h4>
+                  <p>
+                    Wednesday was a lot like Tuesday. I spent time getting ready for interviews and making sure I'm good
+                    at talking to people. This time, I had an online interview using Google Meet through Internshala.
+                  </p>
+                  <p>
+                    The company I talked to really liked the projects I've worked on, and they even chose one of my
+                    projects for further consideration. They told me there would be another interview soon. It made me
+                    hopeful and excited about what's coming next.
+                  </p>
+                  <h4 class="h4">Thursday, September 14, 2023 - A Day of Frustration and Determination:</h4>
+                  <p>
+                    Thursday wasn't a great day. I wanted to start a new course from Infosys and Springspoon, but their
+                    website kept crashing. It was really frustrating because I couldn't even download certificates from
+                    my previous courses.
+                  </p>
+                  <p>
+                    But I got some important news. TCS, a big company, was hiring, and the deadline was September 20th.
+                    Even though the website was crashing a lot, I worked hard to fill out the application because I
+                    didn't want to miss this opportunity.
+                  </p>
+                  <h4 class="h4">Friday, September 15, 2023 - A Day of Learning and Progress:</h4>
+                  <p>
+                    Friday was a day of learning and feeling accomplished. I finished a course in Google Ads, which is
+                    about advertising on the internet. I also learned how to make my LinkedIn profile look better to
+                    impress potential employers.
+                  </p>
+                  <p>
+                    I added my Google Ads certificate to my portfolio website. I also started a new project, an email
+                    validator. It's not finished yet, but I made a good start, and I'll work on it more later.
+                  </p>
+                  <p>
+                    As the week ended, I looked back on everything that happened. From challenges to opportunities and
+                    learning new things, it was a reminder that every day can bring growth and progress.
+                  </p>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="blogs-item">
+              <div class="content-card" data-blogs-item>
+                <figure class="blogs-avatar-box">
+                  <img src="./asset/img/portfolio/blog/blog-3.jpg" alt="Blog 3" data-blogs-avatar>
+                </figure>
+                <div class="blog-meta">
+                  <h4 class="h4 blogs-item-title" data-blogs-title>A Week in Review: Balancing Responsibilities,
+                    Reunions, and Learning</h4>
+                  <time datetime="2023-09-09" data-blogs-time>September 9, 2023</time>
+                </div>
+                <div class="blogs-text" data-blogs-text>
+                  <p>
+                  <h4 class="h4">Saturday, September 2, 2023 - Reflecting and Planning:</h4>
+                  <p>
+                    As I embarked on this Saturday, I recognized it as a pivotal moment - the first time I've posted my
+                    weekly blog. It's not just about chronicling my experiences but also a promise to myself to be more
+                    accountable and productive each day. With determination, I crafted the blog to encapsulate the highs
+                    and lows, the lessons learned, and the progress made during the past week.
+                  </p>
+                  <p>
+                    In parallel, I took a step in the professional direction by applying for jobs online. Analyzing the
+                    job listings meticulously, I identified the skills and qualifications needed for these positions.
+                    This process wasn't just about applying but also about understanding where I stood in relation to
+                    the job market's demands.
+                  </p>
+                  <p>
+                    Moreover, my curiosity led me to delve into the fascinating world of artificial intelligence.
+                    LinkedIn offered a treasure trove of knowledge with free chapters on AI. This unexpected opportunity
+                    to expand my skill set was a pleasant surprise. It was a day filled with both responsibility and the
+                    excitement of learning something new.
+                  </p>
+                  <h4 class="h4">Sunday, September 3, 2023 - A Day for Self-Care:</h4>
+                  <p>
+                    Sundays are my oasis of self-care. The day began with the luxury of waking up late, a rare treat in
+                    my busy schedule. It was a day dedicated to recharging my body and mind, preparing me for the week
+                    ahead. I understand the importance of these restful days in maintaining a healthy work-life balance.
+                  </p>
+                  <p>
+                    The hours were spent in leisure, with no pressing work tasks on the agenda. It was a day to savor a
+                    good book, enjoy a peaceful walk, and simply exist in the moment. I firmly believe that moments of
+                    rest are essential for maintaining productivity and creativity in the long run.
+                  </p>
+                  <h4 class="h4">Monday, September 4, 2023 - Reunion and Blessings:</h4>
+                  <p>
+                    Today was a day of celebration and heartfelt reunions. After a month of being occupied with our
+                    respective post-graduation pursuits - interviews, job hunting, and the like - my college friends and
+                    I finally gathered. The reason for our reunion was the release of our final graduation documents,
+                    marking the culmination of our academic journey.
+                  </p>
+                  <p>
+                    The joy of seeing familiar faces, sharing stories, and reminiscing about our college days was
+                    immeasurable. It was a day to celebrate not only our achievements but also the enduring friendships
+                    we had forged. We also took the opportunity to reconnect with our beloved teachers and professors,
+                    seeking their blessings for the upcoming chapters of our lives. Their encouragement was a reminder
+                    of the impact education has on our personal growth.
+                  </p>
+                  <h4 class="h4">Tuesday, September 5, 2023 - A Day of Interviews:</h4>
+                  <p>
+                    The day started with my usual morning routine, but it quickly evolved into a whirlwind of activity.
+                    I dedicated myself to preparing for interviews, with a particular focus on refining my communication
+                    skills. In the competitive job market, effective communication is a valuable asset.
+                  </p>
+                  <p>
+                    A series of walk-in interviews in Gurgaon awaited me. The catch was that the offices were spread
+                    out, and the commute took up a significant portion of my day. However, I viewed this as an
+                    opportunity to gain experience, practice interview techniques, and understand various industry
+                    expectations. It was a demanding day, but it brought me one step closer to my career goals.
+                  </p>
+                  <h4 class="h4">Wednesday, September 6, 2023 - Embracing Simplicity:</h4>
+                  <p>
+                    Wednesday might not have been remarkable in the traditional sense, but it was a day that highlighted
+                    the beauty of simplicity. I followed my daily routine, applying to various companies, delving into
+                    learning something new, and strategizing for upcoming projects.
+                  </p>
+                  <p>
+                    It's on days like these, where the consistent effort is invested, that greatness is built. These
+                    simple days lay the foundation for the extraordinary moments that emerge as a result of dedication
+                    and perseverance.
+                  </p>
+                  <h4 class="h4">Thursday, September 7, 2023 - Choosing Paths and Seeking Blessings:</h4>
+                  <p>
+                    Thursday was a day filled with important decisions and spiritual reflection. It presented a unique
+                    challenge - I received calls for interviews from three different companies, all scheduled at the
+                    same time but in different locations. Choosing the company that aligned best with my career goals
+                    required thoughtful consideration.
+                  </p>
+                  <p>
+                    In the evening, I visited a temple to celebrate Janmashtami, a festival honoring Lord Krishna's
+                    birth. It was an occasion to seek blessings for my future endeavors and express gratitude for the
+                    opportunities I've had. Greeting Lord Krishna on his birthday was a moment of serenity amidst the
+                    busy week.
+                  </p>
+                  <h4 class="h4">Friday, September 8, 2023 - A Day of Achievements and Finalization:</h4>
+                  <p>
+                    Friday was a day of personal achievements and responsibilities. I completed my AI course provided by
+                    the Microsoft and LinkedIn partnership program. This accomplishment was a significant milestone on
+                    my journey of lifelong learning. I proudly received a certificate from LinkedIn for the AI course,
+                    marking my dedication to enhancing my skills in this rapidly evolving field.
+                  </p>
+                  <p>
+                    However, my pursuit of knowledge didn't end there. To obtain the Microsoft professional certificate,
+                    I needed to ace a 60 to 90-minute test. I scheduled this challenge for the following day, determined
+                    to earn yet another badge of expertise.
+                  </p>
+                  <p>
+                    As the day drew to a close, I dedicated time to finalize my blog post for the week. It was a
+                    responsible task that allowed me to reflect on the week's experiences, share my insights, and
+                    connect with others who might relate to my journey.
+                  </p>
+                  <p>
+                    This week was a blend of reflection, reunions, and learning. Each day brought its own unique
+                    challenges and opportunities, reminding me that life's richness lies in its diversity of
+                    experiences.
+                  </p>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="blogs-item">
+              <div class="content-card" data-blogs-item>
+                <figure class="blogs-avatar-box">
+                  <img src="./asset/img/portfolio/blog/blog-2.jpg" alt="Blog 2" data-blogs-avatar>
+                </figure>
+                <div class="blog-meta">
+                  <h4 class="h4 blogs-item-title" data-blogs-title>A Week in My Life: Balancing Learning, Celebrations,
+                    and Career Growth</h4>
+                  <time datetime="2023-09-02" data-blogs-time>September 2, 2023</time>
+                </div>
+                <div class="blogs-text" data-blogs-text>
+                  <p>
+                  <h4 class="h4">Saturday, August 26, 2023 - A Day of Celebration:</h4>
+                  <p>
+                    Today, I woke up with a smile on my face, for it's my birthday! As a self-proclaimed foodie, I
+                    started my day with a delectable breakfast spread. But this year, I decided to blend celebration
+                    with productivity. First, I made some exciting changes to my portfolio website, giving it a fresh
+                    new look. It was time to showcase my skills to the world. I also penned down my first blog on my
+                    portfolio, sharing my journey and experiences.
+                  </p>
+                  <p>
+                    To further hone my skills, I dived into the world of game development using HTML, CSS, and
+                    JavaScript. Building a game from scratch was both challenging and rewarding. After some coding, I
+                    took a break to enjoy some shows and learn something new, a leisurely activity that enriches my
+                    life.
+                  </p>
+                  <p>
+                    But the day wasn't over yet. I also spent time searching for free courses, both technical and
+                    non-technical, to enhance my knowledge. My search led me to the Infosys and Google partnership
+                    program, which promises exciting opportunities for growth. All in all, it was a wonderful day filled
+                    with celebration, learning, and creativity.
+                  </p>
+                  <h4 class="h4">Sunday, August 27, 2023 - A Day of Skill Enhancement:</h4>
+                  <p>
+                    After the birthday festivities, I shifted my focus back to my projects. I started the day by
+                    researching ideas for new games to add to my portfolio. Once I had a plan, I dedicated three hours
+                    to building a game, refining my HTML, CSS, and JavaScript skills.
+                  </p>
+                  <p>
+                    The rest of the day was devoted to my Microsoft and LinkedIn certification courses in AI. With only
+                    a week left until completion, I wanted to make the most of my time. I knew these certifications
+                    would open doors to exciting career opportunities, so my determination was unwavering.
+                  </p>
+                  <h4 class="h4">Monday, August 28, 2023 - A Day of Challenges and Progress:</h4>
+                  <p>
+                    Today, I faced a challenge – a vocal test at work. It was a chance to showcase what I had learned
+                    during the last week of training. After the test, my body was exhausted, so I decided to take a
+                    much-needed nap to recharge.
+                  </p>
+                  <p>
+                    Upon waking up, I resumed my certification courses. With only a week left, every moment counted.
+                    Microsoft and LinkedIn certifications in AI were within my grasp, and I was determined to achieve
+                    them.
+                  </p>
+                  <h4 class="h4">Tuesday, August 29, 2023 - A Day of Preparation and Learning:</h4>
+                  <p>
+                    Today began with my usual routine, but I had an interview practice session planned to enhance my
+                    communication skills. Additionally, I prepared some tests on SEO tools and delved into learning new
+                    web developer tools. I even started searching for new projects and game ideas to work on in the near
+                    future.
+                  </p>
+                  <p>
+                    In the evening, I had a meeting to discuss design and SEO tools, which was productive despite not
+                    feeling my best. I knew that tomorrow would bring more opportunities for productivity.
+                  </p>
+                  <h4 class="h4">Wednesday, August 30, 2023 - A Day of Planning:</h4>
+                  <p>
+                    Today was a routine day, and I spent it planning for the upcoming month to ensure I stayed focused
+                    and productive. With distractions minimized, I felt confident about achieving my goals.
+                  </p>
+
+                  <h4 class="h4">Thursday, August 31, 2023 - A Day of Celebration and Togetherness:</h4>
+                  <p>
+                    Today marked the celebration of Raksha Bandhan, a special day in our family. My sister tied a sacred
+                    thread on my wrist, symbolizing our bond. We also had the pleasure of a visit from my father’s
+                    sister, making the day even more memorable. We shared sweets, laughter, and cherished moments,
+                    creating beautiful memories to hold onto.
+                  </p>
+                  <h4 class="h4">Friday, September 1, 2023 - A Day of Hectic Interviews:</h4>
+                  <p>
+                    Today was a whirlwind as I had interviews scheduled in both Gurgaon and Shalimar Bagh. It was a
+                    demanding day, requiring my full attention and energy. While it meant less time for other tasks, I
+                    understood the importance of these interviews for my career growth.
+                  </p>
+                  <p>
+                    This month began with an interview, and I was determined to make it a stepping stone to new
+                    opportunities in my professional journey.
+                  </p>
+                  <p>
+                    As the week came to a close, I reflected on the diverse experiences and challenges it had brought.
+                    From personal celebrations to career pursuits, it was a week that perfectly encapsulated the balance
+                    I strive to maintain in my life.
+                  </p>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="blogs-item">
+              <div class="content-card" data-blogs-item>
+                <figure class="blogs-avatar-box">
+                  <img src="./asset/img/portfolio/blog/blog-1.jpg" alt="Blog 1" data-blogs-avatar>
+                </figure>
+                <div class="blog-meta">
+                  <h4 class="h4 blogs-item-title" data-blogs-title>Celebrating Life and New Beginnings: Happy Birthday
+                    to Me!</h4>
+                  <time datetime="2023-08-26" data-blogs-time>August 26, 2023</time>
+                </div>
+                <div class="blogs-text" data-blogs-text>
+                  <p>
+                  <h5 class="h4">Introduction:</h5>
+                  <p>
+                    Hello, dear readers! Today is a special day as I celebrate another year of existence and embark on
+                    exciting new beginnings. As the calendar turns to August 26th, 2023, I am filled with gratitude,
+                    joy, and a sense of anticipation for the adventures that lie ahead. But that's not all – I have a
+                    fantastic announcement to make that will make this birthday even more memorable!
+                  </p>
+                  <h4 class="h4">Happy Birthday to Me! 🎉</h4>
+                  <p>
+                    Yes, it's that time of the year again when I get to blow out the candles and make a wish. Birthdays
+                    are more than just a day marked on the calendar; they're a celebration of life, growth, and the
+                    countless moments that shape our journey. As I reflect on the past year, I am reminded of the
+                    lessons learned, the challenges overcome, and the beautiful memories created. Each day has brought
+                    me closer to who I am today, and for that, I am immensely grateful.
+                  </p>
+                  <h4 class="h4">Embracing New Beginnings: Weekly Blog Posts Every Saturday! 📚</h4>
+                  <p>
+                    But that's not all there is to this special day. I am thrilled to announce a new chapter in my
+                    online journey. Starting from this week onwards, I will be posting weekly blogs every Saturday! This
+                    decision has been fueled by my passion for sharing insights, knowledge, and stories with all of you.
+                    Whether it's about technology, life advice, creative writing, or anything that sparks my curiosity,
+                    you can count on a fresh piece of content to kickstart your weekends.
+                  </p>
+                  <h4 class="h4">Why Weekly Blogs?</h4>
+                  <p>
+                    Life is a continuous learning process, and through these weekly blogs, I hope to engage, entertain,
+                    and inspire you. By setting a regular schedule, I aim to create a consistent platform where we can
+                    explore a myriad of topics together. Whether you're seeking advice, seeking inspiration, or just
+                    looking for a good read, my weekly blogs will have something for everyone.
+                  </p>
+                  <h4 class="h4">What to Expect: Diverse Topics and Fresh Perspectives</h4>
+                  <p>
+                    From personal anecdotes to in-depth explorations of current trends, my blogs will cover a wide
+                    range of subjects. Whether we're diving into the latest advancements in technology, delving into the
+                    intricacies of human psychology, or simply sharing heartwarming stories, you can expect a mix of
+                    informative and engaging content. Each blog will be crafted with care and a commitment to providing
+                    you with value.
+                  </p>
+                  <h4 class="h4">Join Me on This Journey!</h4>
+                  <p>
+                    Your support has been the driving force behind my online presence, and I couldn't be more thankful.
+                    As I celebrate my birthday and embark on this exciting weekly blogging journey, I invite you to join
+                    me every Saturday as we explore, learn, and grow together. Feel free to leave comments, share your
+                    thoughts, and suggest topics you'd like to see covered in future blogs.
+                  </p>
+                  <h4 class="h4">Conclusion:</h4>
+                  <p>
+                    As the clock ticks and the sun sets on this remarkable birthday, I am filled with anticipation for
+                    the weeks and months to come. Thank you for being a part of my life's journey, and here's to
+                    celebrating birthdays, embracing new beginnings, and sharing knowledge through the wonderful world
+                    of blogging. Remember to mark your calendars – the first weekly blog post goes live this Saturday!
+                    Until then, stay curious, stay inspired, and keep spreading the positivity.
+                  </p>
+                  <p>
+                    With Heartfelt Gratitude,<br>
+                  </p>
+                  <p>
+                    Dev Gupta<br>
+                    devguptalive.netlify.app<br>
+                  </p>
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+
+        <!-- Blogs Modal -->
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="blogs-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./asset/img/portfolio/blog/blog-1.jpg" alt="Blog 1" data-modal-img>
+              </figure>
+            </div>
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Avatar 1</h4>
+              <time datetime="YYYY-MM-DD" data-modal-time>Month DD, YYYY</time>
+              <div data-modal-text>
+                <p></p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </article>
+
+      <!-- Contact -->
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448193.9510412846!2d76.7635645984973!3d28.644287350921367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1686497998991!5m2!1sen!2sin"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form action="#" class="form" onsubmit="send_email(); reset(); return false;" id="myForm" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" id="fullname" class="form-input" placeholder="Full name" required
+                data-form-input>
+              <input type="email" name="email" id="email" class="form-input" placeholder="Email address"
+                data-form-input>
+            </div>
+            <textarea name="message" class="form-input" id="message" placeholder="Your Message" required
+              data-form-input></textarea>
+            <button class="form-btn" type="submit" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+          <div class="notification success" id="successNotification">
+            <p>Form submitted successfully!</p>
+          </div>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <!-- Custom JS Link -->
+  <script src="./asset/js/script.js"></script>
+
+  <!-- For Email -->
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+  <!-- Ionicon Link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
